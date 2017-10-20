@@ -1,0 +1,1023 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HIS</title>
+    <link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <!-- ============================================
+    ================= Stylesheets ===================
+    ============================================= -->
+    <!-- vendor css files -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/js/vendor/animsition/css/animsition.min.css">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+
+
+    <!-- project main css files -->
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/js/Simple-Clean-jQuery-Vertical-Product-Gallery/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <!--/ stylesheets -->
+    <link href="assets/js/Filterizr-master/dev_example/css/index.css" rel="stylesheet" />
+   
+
+    <!-- ==========================================
+    ================= Modernizr ===================
+    =========================================== -->
+    <script src="assets/js/vendor/modernizr/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!--/ modernizr -->
+
+    <style>
+        .padright {
+            padding-left: 40px;
+        }
+        .table.table {
+            color: RGBA(85, 85, 85, 0.85);
+            background-color: #fff;
+        }
+
+        .comtitle {
+            font-size: 13px;
+            background: rgb(102, 153, 204) none repeat scroll 0% 0% !important;
+            color: rgb(255, 255, 255);
+        }
+
+        .marbot25 {
+            margin-bottom: 25px;
+        }
+
+        .editcompany {
+            float: right;
+            font-size: 17px;
+            color: #fff;
+        }
+
+        .borright {
+            border-right: 1px dashed rgb(192, 192, 192);
+        }
+
+        .buildinglogo {
+            width: 60%;
+            margin-top: 30px;
+        }
+        #sidebar .panel-group .panel > .panel-heading + .panel-collapse > .panel-body {
+            border-top: 0;
+            min-height: 650px;
+        }
+        .miheight {
+            min-height: 650px;
+        }
+        .my-table th {
+            background-color: #424A5D;
+            color: #fff !important;
+            border-bottom: 1px solid #DFD8D4;
+            border-right: 1px solid #DFD8D4;
+            border-top: 1px solid #DFD8D4;
+            padding: 3px 3px 4px 5px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 11px;
+            background-size: 100% 100%;
+        }
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            padding: 5px 7px 7px 7px !important;
+            font-size: 11px;
+        }
+        .sidebar-xs #header .branding > a {
+            background-position: 6px 10px;
+            width: 100% !important;
+            font-size: 21px;
+            padding: 0px 1px 2px 15px;
+            text-align: center;
+            color: #fff;
+        }
+            .sidebar-xs #header .branding > a > span {
+                display: inline-block;
+            }
+        .sidebar-xs #header .branding {
+            width: 100%;
+            padding-top: 7px;
+            text-align: center;
+        }
+        .theight {
+            height: 21px;
+        }
+
+        .topheadbaxck {
+            background-color: rgb(239, 239, 239);
+            padding: 2px 0px;
+            margin-bottom: 10px;
+            margin-top: -15px;
+        }
+        .red{
+            color:red;
+        }
+        .addcatego {
+            float: right;
+            margin-top: -40px;
+            margin-right: 30px;
+        }
+        .btn-radio {
+            width: 100%;
+        }
+
+        .img-radio {
+            opacity: 1.5;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .border-box-blue {
+            border: 4px solid #219803;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .border-box-black {
+            border-bottom: 1px solid #f5f5f5;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .space-20 {
+            margin-top: 20px;
+        }
+
+        .btm-space-10 {
+            margin-bottom: 5px;
+        }
+
+        .uploaddbtn {
+            float: right;
+            margin-bottom: 15px;
+            margin-right: 31px;
+        }
+
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 50px #222;
+        }
+
+        .marbotspace10 {
+            margin-bottom: 10px;
+        }
+        .martop6 {
+            margin-top: 6px;
+        }
+        .paddingnil {
+            padding-left: 0px !important;
+            padding-right: 0px;
+        }
+        .paddingleft0 {
+            padding-left: 0px;
+        }
+        .inputtextboheight {
+            margin-left: 15px !important;
+            width: 27% !important;
+            height: 29px !important;
+            padding: 3px 3px 3px 3px !important;
+        }
+        .inputtextboheight2 {
+            width: 100% !important;
+            height: 29px !important;
+            padding: 3px 3px 3px 3px !important;
+        }
+        .panel-body {
+            padding: 8px;
+        }
+        .form-group {
+            margin-bottom: 6px;
+        }
+        .modal-footer {
+            padding: 8px;
+            text-align: right;
+            border-top: 1px solid #e5e5e5;
+        }
+        .modal-body {
+            position: relative;
+            padding: 8px;
+        }
+        .panel-heading {
+            padding: 5px 10px !important;
+            border-bottom: 1px solid transparent;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+        .checback {
+            position: absolute !important;
+            margin-top: -18px !important;
+            margin-left: 5px !important;
+        }
+        .setcanvas {
+            width:985px;
+            height:600px;
+        }
+        #omyFileInput {
+            display: none;
+        }
+        .imageborder {
+            width: 100%;
+            border: 1px solid #fff;
+        }
+        .edit_hover_class {
+            width: 100%;
+        }
+
+            .edit_hover_class i {
+                display: none;
+            }
+
+            .edit_hover_class:hover i {
+                display: block;
+            }
+        .iconedit {
+            position: absolute;
+            font-size: 25px;
+            background-color: rgb(255, 255, 255);
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 11px;
+            border-radius: 50%;
+            color: #424A5D;
+        }
+
+    </style>
+</head>
+
+
+
+
+
+<body id="his" class="appWrapper sidebar-xs-forced">
+
+    <div id="wrap" class="animsition">
+        <!-- ===============================================
+        ================= HEADER Content ===================
+        ================================================ -->
+        <section id="header">
+            <header class="clearfix">
+                <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <!-- Branding -->
+                        <div class="branding">
+                            <a href="index.html">
+                                <span>PACs</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-right">
+                        <select class="form-control hidden" style="width: 54%; position: absolute; margin-top: 5px;">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <a href="#" data-toggle="modal" data-target="#setting" title="settings" style="color:#fff;"><i class="fa fa-cog fa-2x martop6" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+               
+                
+                
+            </header>
+
+        </section>
+        <!--/ HEADER Content  -->
+        <!-- =================================================
+        ================= CONTROLS Content ===================
+        ================================================== -->
+        <div id="controls">
+
+
+
+
+
+            <!-- ================================================
+            ================= SIDEBAR Content ===================
+            ================================================= -->
+            <aside id="sidebar" class="miheight">
+
+
+                <div id="sidebar-wrap">
+
+                    <div class="panel-group slim-scroll" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#sidebarNav">
+                                        Navigation <i class="fa fa-angle-up"></i>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="sidebarNav" class="panel-collapse collapse in" role="tabpanel">
+                                <div class="panel-body">
+
+
+                                    <!-- ===================================================
+                            ================= NAVIGATION Content ===================
+                            ==================================================== -->
+                                    <ul id="navigation" class="simplefilter">
+
+                                        <li><a href="#" title="Open" onclick="document.getElementById('omyFileInput').click()"><i class="fa fa-folder-open-o" aria-hidden="true"></i> <span>Open</span></a><input type="file" id="omyFileInput" /></li>
+                                        <li data-filter="1"><a href="#" title="One"><i class="fa fa-square" aria-hidden="true"></i> <span>One</span></a></li>
+                                        <li data-filter="2"><a href="#" title="Two"><i class="fa fa-pause" aria-hidden="true"></i> <span>Two</span></a></li>
+                                        <li data-filter="3"><a href="#" title="Four"><i class="fa fa-th-large" aria-hidden="true"></i> <span>Four</span></a></li>
+                                        <li><a href="Createreport.html" title="Create Report"><i class="fa fa-file-image-o" aria-hidden="true"></i> <span>Create Report</span></a></li>
+                                        <li><a href="Submitfindings.html" title="Submit Findings"><i class="fa fa-file-archive-o" aria-hidden="true"></i> <span>Submit Findings</span></a></li>
+                                        <li><a href="#" title="Save" onclick="save()"><i class="fa fa-save" aria-hidden="true"></i> <span>Save</span></a></li>
+                                        <!--<li><a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit" aria-hidden="true"></i> <span>Edit</span></a></li>-->
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </aside>
+        </div>
+        <!--/ CONTROLS Content -->
+        <!-- ====================================================
+        ================= CONTENT ===============================
+        ===================================================== -->
+        <section id="content">
+            <div class="page page-sidebar-xs-layout">
+
+                <div class="pageheader padright">
+                  
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 topheadbaxck">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary">View Selected</a>
+                            </div>
+                            <div class="col-md-6 text-right">
+                            </div>
+                        </div> 
+                        <div class=" col-lg-12 col-md-12 col-sm-12 paddingnil">
+                            
+                            <div class="">
+                                <div class="gallery">
+                                   
+                                    <div class="col-lg-1 col-md-1 col-sm-1 paddingnil">
+                                        
+                                        <div class="some-content-related-div">
+
+                                            <div id="inner-content-div">
+
+                                                <div>
+                                                    <div class="previews">
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs selected" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-1.jpg"><img src="assets/images/Baby%2014%20Weeks-1.jpg" class="img-responsive img-radio" style="cursor:pointer"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-2.jpg"><img src="assets/images/Baby%2014%20Weeks-2.jpg" class="img-responsive img-radio"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-3.jpg"><img src="assets/images/Baby%2014%20Weeks-3.jpg" class="img-responsive img-radio"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs imagea" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-4.jpg"><img src="assets/images/Baby%2014%20Weeks-4.jpg" class="img-responsive img-radio"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-5.jpg"><img src="assets/images/Baby%2014%20Weeks-5.jpg" class="img-responsive img-radio"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12 marbotspace10">
+                                                            <div class="col-sm-12 border-box-black">
+                                                                <a class="fancybox-thumbs" data-fancybox-group="thumb" data-full="assets/images/Baby%2014%20Weeks-6.jpg"><img src="assets/images/Baby%2014%20Weeks-6.jpg" class="img-responsive img-radio"></a>
+                                                                <div class=""><input type="checkbox" class="pack_item pull-right checback" /></div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 filtr-container">
+                                <div class="full">
+                                    <!-- first image is viewable to start -->
+                                    <div class="col-xs-12 col-sm-12 col-md-12 edit_hover_class filtr-item" data-category="1" data-sort="one">
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 paddingnil">
+                                            <a href="#" data-toggle="modal" data-target="#edit"><i class="fa fa-edit iconedit" aria-hidden="true"></i></a>
+                                            <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-1.jpg">
+                                        </div>
+                                        <div class="col-lg-5 col-sm-5 col-md-5"></div>
+                                       
+
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="2" data-sort="two">
+                                        <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                            <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-1.jpg">
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                            <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-2.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="3" data-sort="four">
+                                        <div class="col-lg-7 col-sm-7 col-md-7 paddingnil">
+                                            <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                                <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-1.jpg">
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                                <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-2.jpg">
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                                <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-3.jpg">
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 paddingnil">
+                                                <img class="img-responsive imageborder" src="assets/images/Baby%2014%20Weeks-3.jpg">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-5 col-sm-5 col-md-5"></div>
+
+                                    </div>
+                                   
+                                       
+                                    
+                                   
+                                   
+                                </div>
+
+                            </div>
+                            
+                            <div class="col-lg-2 col-sm-3 col-ms-2 hidden">
+                                <table class="table my-table xlstable table-bordered" style="width: 100%;">
+                                    <thead>
+                                        <tr>
+                                            <th>DICOM Tags</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Pateint ID</td>
+                                            <td>1023021522</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Study Date</td>
+                                            <td>21 July 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Study Time</td>
+                                            <td>15:11 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Image Format</td>
+                                            <td>.Jpg</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br />
+                                <a href="#" data-toggle="modal" data-target="#upload" type="button" class="btn btn-primary">Upload</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+               
+            </div>
+            
+        </section>
+        <!--/ CONTENT -->
+
+        
+        
+       
+
+
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Image Editor</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Setting Modal-->
+    <div class="modal fade" id="setting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Upload</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">Destination :</label>
+                                    <div class="col-sm-9">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <label class="input-group-btn">
+                                                <span class="btn btn-primary">
+                                                    Browse&hellip; <input type="file" style="display: none;" multiple>
+                                                </span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">Source :</label>
+                                    <div class="col-sm-9">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <label class="input-group-btn">
+                                                <span class="btn btn-primary">
+                                                    Browse&hellip; <input type="file" style="display: none;" multiple>
+                                                </span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">Filename Prefix :</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control inputtextboheight2" id="filename">
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="inlineCheckbox1" value="option1" onclick="getid(this)" checked> Pateint Name
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="inlineCheckbox2" value="option2" onclick="getdate(this)" checked> Date
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="inlineCheckbox3" value="option3" onclick="gettime(this)"> Time
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" id="inlineCheckbox4" value="option4" onclick="getformat(this)"> Img_Format
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">Image Format :</label>
+                                    <div class="col-sm-5">
+                                        <select class="form-control inputtextboheight2">
+                                            <option>JPG files</option>
+                                            <option>PNG files</option>
+                                            <option>TIF files</option>
+                                            <option>GIF files</option>
+                                            <option>BMP files</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Image Resize</div>
+                        <div class="panel-body">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-5">
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                Original ( 1024 X 786 ) px
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                                <div style="display: inline-flex;">Other <input type="text" class="form-control inputtextboheight" placeholder="1024"> &nbsp;&nbsp;X <input type="text" class="form-control inputtextboheight" placeholder="786" style="margin-left: 6px !important;"> &nbsp;px</div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!--/ Application Content -->
+    <!-- ============================================
+    ============== Vendor JavaScripts ===============
+    ============================================= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <script src="assets/js/vendor/jRespond/jRespond.min.js"></script>
+
+    <script src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+
+    <script src="assets/js/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/vendor/animsition/js/jquery.animsition.min.js"></script>
+    <!--/ vendor javascripts -->
+    <!-- ============================================
+    ============== Custom JavaScripts ===============
+    ============================================= -->
+    <script src="assets/js/main.js"></script>
+    <!--/ custom javascripts -->
+   
+    <script src="assets/js/Filterizr-master/dev_example/filterizr/jquery.filterizr.js"></script>
+    <script src="assets/js/Filterizr-master/dev_example/js/controls.js"></script>
+
+
+   
+
+    <!-- Kick off Filterizr -->
+    <script type="text/javascript">
+        $(function () {
+            //Initialize filterizr with default options
+            $('.filtr-container').filterizr();
+        });
+    </script>
+
+    <script src="assets/js/Simple-Clean-jQuery-Vertical-Product-Gallery/fancybox/jquery.fancybox.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a').click(function () {
+                var largeImage = $(this).attr('data-full');
+                $('.selected').removeClass();
+                $(this).addClass('selected');
+                $('.full img').hide();
+                $('.full img').attr('src', largeImage);
+                $('.full img').fadeIn();
+
+
+            }); // closing the listening on a click
+            $('.full img').on('click', function () {
+                var modalImage = $(this).attr('src');
+                $.fancybox.open(modalImage);
+            });
+        }); //closing our doc ready
+    </script>
+    <script>
+        $(function () {
+            $('#inner-content-div').slimScroll({
+                height: '655px'
+            });
+        });
+        $(document).ready(function () {
+            document.getElementById("inlineCheckbox1").checked = true;
+            document.getElementById("inlineCheckbox2").checked = true;
+            document.getElementById("filename").value= "Manojmishra_21July2016";
+
+
+        });
+        function getid(obj)
+        {
+            
+            var a = "";
+            var b = "";
+            var c = "";
+            var d = "";
+       
+            var date = document.getElementById("inlineCheckbox2");
+            var time = document.getElementById("inlineCheckbox3");
+            var format = document.getElementById("inlineCheckbox4");
+
+            if (obj.checked == true)
+            {
+                //document.getElementById("filename").value = "1023021522";
+                a = "Manojmishra";
+                document.getElementById("inlineCheckbox1").checked = true;
+            }
+            else {
+                // document.getElementById("filename").value = "";
+                a = "";
+                document.getElementById("inlineCheckbox1").checked = false;
+            }
+
+
+            if (date.checked == true) {
+                
+                b = "_21July2016";
+                document.getElementById("inlineCheckbox2").checked = true;
+            }
+            else {
+                b = "";
+                document.getElementById("inlineCheckbox2").checked = false;
+            }
+
+
+            if (time.checked == true) {
+                c = "_15:11_PM";
+                document.getElementById("inlineCheckbox3").checked = true;
+            }
+            else {
+                c = "";
+                document.getElementById("inlineCheckbox3").checked = false;
+            }
+
+
+            if (format.checked == true) {
+                d = "_jpg";
+                document.getElementById("inlineCheckbox4").checked = true;
+            }
+            else {
+                d = "";
+                document.getElementById("inlineCheckbox4").checked = false;
+            }
+
+
+            document.getElementById("filename").value = a+b+c+d;
+
+        }
+        function getdate(obj) {
+           
+            var a = "";
+            var b = "";
+            var c = "";
+            var d = "";
+
+            var Id = document.getElementById("inlineCheckbox1");
+            var time = document.getElementById("inlineCheckbox3");
+            var format = document.getElementById("inlineCheckbox4");
+
+            if (Id.checked == true) {
+                //document.getElementById("filename").value = "1023021522";
+                a = "Manojmishra";
+                document.getElementById("inlineCheckbox1").checked = true;
+            }
+            else {
+                // document.getElementById("filename").value = "";
+                a = "";
+                document.getElementById("inlineCheckbox1").checked = false;
+            }
+
+
+            if (obj.checked == true) {
+
+                b = "_21July2016";
+                document.getElementById("inlineCheckbox2").checked = true;
+            }
+            else {
+                b = "";
+                document.getElementById("inlineCheckbox2").checked = false;
+            }
+
+
+            if (time.checked == true) {
+                c = "_15:11_PM";
+                document.getElementById("inlineCheckbox3").checked = true;
+            }
+            else {
+                c = "";
+                document.getElementById("inlineCheckbox3").checked = false;
+            }
+
+
+            if (format.checked == true) {
+                d = "_jpg";
+                document.getElementById("inlineCheckbox4").checked = true;
+            }
+            else {
+                d = "";
+                document.getElementById("inlineCheckbox4").checked = false;
+            }
+
+
+            document.getElementById("filename").value = a + b + c + d;
+        }
+
+
+
+        function gettime(obj) {
+            var a = "";
+            var b = "";
+            var c = "";
+            var d = "";
+
+            var date = document.getElementById("inlineCheckbox2");
+            var Id = document.getElementById("inlineCheckbox1");
+            var format = document.getElementById("inlineCheckbox4");
+
+            if (Id.checked == true) {
+                //document.getElementById("filename").value = "1023021522";
+                a = "Manojmishra";
+                document.getElementById("inlineCheckbox1").checked = true;
+            }
+            else {
+                // document.getElementById("filename").value = "";
+                a = "";
+                document.getElementById("inlineCheckbox1").checked = false;
+            }
+
+
+            if (date.checked == true) {
+
+                b = "_21July2016";
+                document.getElementById("inlineCheckbox2").checked = true;
+            }
+            else {
+                b = "";
+                document.getElementById("inlineCheckbox2").checked = false;
+            }
+
+
+            if (obj.checked == true) {
+                c = "_15:11_PM";
+                document.getElementById("inlineCheckbox3").checked = true;
+            }
+            else {
+                c = "";
+                document.getElementById("inlineCheckbox3").checked = false;
+            }
+
+
+            if (format.checked == true) {
+                d = "_jpg";
+                document.getElementById("inlineCheckbox4").checked = true;
+            }
+            else {
+                d = "";
+                document.getElementById("inlineCheckbox4").checked = false;
+            }
+
+
+            document.getElementById("filename").value = a + b + c + d;
+        }
+
+
+
+        function getformat(obj) {
+            var a = "";
+            var b = "";
+            var c = "";
+            var d = "";
+
+            var date = document.getElementById("inlineCheckbox2");
+            var time = document.getElementById("inlineCheckbox3");
+            var Id = document.getElementById("inlineCheckbox1");
+
+            if (Id.checked == true) {
+                //document.getElementById("filename").value = "1023021522";
+                a = "Manojmishra";
+                document.getElementById("inlineCheckbox1").checked = true;
+            }
+            else {
+                // document.getElementById("filename").value = "";
+                a = "";
+                document.getElementById("inlineCheckbox1").checked = false;
+            }
+
+
+            if (date.checked == true) {
+
+                b = "_21July2016";
+                document.getElementById("inlineCheckbox2").checked = true;
+            }
+            else {
+                b = "";
+                document.getElementById("inlineCheckbox2").checked = false;
+            }
+
+
+            if (time.checked == true) {
+                c = "_15:11_PM";
+                document.getElementById("inlineCheckbox3").checked = true;
+            }
+            else {
+                c = "";
+                document.getElementById("inlineCheckbox3").checked = false;
+            }
+
+
+            if (obj.checked == true) {
+                d = "_jpg";
+                document.getElementById("inlineCheckbox4").checked = true;
+            }
+            else {
+                d = "";
+                document.getElementById("inlineCheckbox4").checked = false;
+            }
+
+
+            document.getElementById("filename").value = a + b + c + d;
+        }
+    </script>
+    <script>
+        $(function () {
+            $('input.pack_item').click(function (e) {
+                if (this.checked) {
+                    $(this).parent().parent().addClass("border-box-blue");
+                    $(this).parent().parent().removeClass("border-box-black");
+                    $(this).siblings('.img-radio').css('opacity', '1.0');
+                } else {
+                    $(this).parent().parent().addClass("border-box-black");
+                    $(this).parent().parent().removeClass("border-box-blue");
+                    $(this).siblings('.img-radio').css('opacity', '0.5');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+
+            // We can attach the `fileselect` event to all file inputs on the page
+            $(document).on('change', ':file', function () {
+                var input = $(this),
+                    numFiles = input.get(0).files ? input.get(0).files.length : 1,
+                    label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+                input.trigger('fileselect', [numFiles, label]);
+            });
+
+            // We can watch for our custom `fileselect` event like this
+            $(document).ready(function () {
+                $(':file').on('fileselect', function (event, numFiles, label) {
+
+                    var input = $(this).parents('.input-group').find(':text'),
+                        log = numFiles > 1 ? numFiles + ' files selected' : label;
+
+                    if (input.length) {
+                        input.val(log);
+                    } else {
+                        if (log) alert(log);
+                    }
+
+                });
+            });
+
+        });
+    </script>
+    <script type="text/javascript">
+        
+            function save() {
+               alert("You are saving this image to your destination folder!!")
+            }
+            document.getElementById('get_file').onclick = function () {
+                document.getElementById('my_file').click();
+            };
+    </script>
+
+
+</body>
+</html>
+
+
+
+
